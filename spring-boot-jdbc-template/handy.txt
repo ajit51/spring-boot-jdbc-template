@@ -1,0 +1,11 @@
+create database studentmanagement;
+use studentmanagement;
+create table student (
+ id int not null primary key,
+ name varchar(255) not null,
+ contact_number bigint not null,
+ address varchar(255) not null
+);
+
+Swagger URL
+localhost:8080/swagger-ui.html
